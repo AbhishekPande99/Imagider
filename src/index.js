@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Partition from "./image.js";
 
 var Destination=document.querySelector("#container");
 
 ReactDOM.render(
-<h1>helloworld</h1>,Destination
+<div><Partition/></div>,Destination
 	);
