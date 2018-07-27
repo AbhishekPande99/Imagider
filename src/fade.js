@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { Slide } from 'react-slideshow-image';
 import house from "./new3/1.jpg";
 import night from "./new3/2.jpg";
 import forest from "./new3/3.jpg";
@@ -29,7 +28,7 @@ render(){
       slidesToScroll: 1
     };
 	return(
-
+<span className="imaged">
 		<Slider {...settings}>
         <div>
          <img src={ this.state.data[0]}></img>
@@ -47,6 +46,7 @@ render(){
           <img src={ this.state.data[4]}></img>
         </div>
       </Slider>
+      </span>
       
 		);
 }
